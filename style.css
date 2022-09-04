@@ -1,0 +1,39 @@
+body {
+    background-image: url("fire\ image.png");
+}
+
+h1 {
+    font-family: 'Silkscreen', cursive;
+    background-color: rgb(0, 0, 0);
+    color: rgb(230, 175, 86);
+}
+
+canvas {
+    animation-name: flash;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes flash {
+    from {
+        box-shadow: 1px 1px 40px rgb(233, 77, 132);
+    }
+
+    to {
+        box-shadow: 1px 1px 40px rgb(235, 172, 101);
+    }
+}
+
+button {
+    background-color: rgb(230, 175, 86);
+    font-family: 'Kalam', cursive;
+
+}
+.closer{
+    background-color: rgb(230, 175, 86);
+    font-family: 'Kalam', cursive;
+position: fixed,bottom;
+height: 60px;
+font-size: 20px;
+}
